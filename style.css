@@ -1,0 +1,53 @@
+.bo{
+    background-color: #5F9EA0;
+}
+.header{
+    background-color: #F0F8FF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+    font-size: 0.8em;
+}
+.titulo{
+    color: whitesmoke;
+    font-family: cursive;
+    font-size: 2.25em;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;   
+}
+
+.grid img{
+    border: 2px solid #000000;
+    border-radius: 10px; 
+}
+
+.item{
+    position: relative;
+    margin: 20px;
+}
+
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    color: black;
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.33;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
